@@ -13,7 +13,7 @@ Given(/^I am on the home page$/, async () => {
 
 When(/^I click on the sign in button$/, async () => {
     await HomePage.signInClick()
-    await browser.pause(10000)
+    
 });
 
 Then(/^I should navigate to the My Accounts page$/, async () => {
@@ -22,13 +22,13 @@ Then(/^I should navigate to the My Accounts page$/, async () => {
 
 Given(/^I am on the my account page$/, async () => {
     await expect(MyAccountPage.createAnAccount).toBeExisting();
-    await browser.pause(10000)
+    
 });
 
 When(/^I enter the emailID and click on the Create an Account button$/, async () => {
     await MyAccountPage.enterEmailID()
     await MyAccountPage.clickCreateAnAccount()
-    await browser.pause(10000)
+    await browser.pause(2000)
 });
 
 Then(/^I should navigate to the personal information page$/, async () => {
