@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625038969106' stop='1625038975077'>
+    <name>The Automation Practice site E2E flow: To register, the user has to provide his/her personal information</name>
+    <title>The Automation Practice site E2E flow: To register, the user has to provide his/her personal information</title>
+    <test-cases>
+        <test-case start='1625038969106' status='passed' stop='1625038969106'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625038969107' status='passed' stop='1625038969264'>
+            <name>Given I am on the personal information page</name>
+            <title>Given I am on the personal information page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='301692dd-3aaf-483b-a1b8-d4008290b532-attachment.png' type='image/png' size='89810'/>
+            </attachments>
+        </test-case>
+        <test-case start='1625038969264' status='passed' stop='1625038974671'>
+            <name>When User enters the mandatory fields and click on Register button</name>
+            <title>When User enters the mandatory fields and click on Register button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='941f9a87-e044-4a29-a2a8-fb5ae98ea67d-attachment.png' type='image/png' size='89810'/>
+            </attachments>
+        </test-case>
+        <test-case start='1625038974671' status='broken' stop='1625038975075'>
+            <name>Then The user should be registered and logged in successfully</name>
+            <title>Then The user should be registered and logged in successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5162a54d-ee0e-4f3d-a666-03dad1402229-attachment.png' type='image/png' size='112913'/>
+            </attachments>
+            <failure>
+                <message>invalid selector: invalid selector: Unable to locate an element with the xpath expression /a[title='View my customer account'] span because of the following error:</message>
+                <stack-trace>invalid selector: invalid selector: Unable to locate an element with the xpath expression /a[title='View my customer account'] span because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/a[title='View my customer account'] span' is not a valid XPath expression.
+                  (Session info: chrome=91.0.4472.114)
+                    at Object.getErrorFromResponseBody (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Browser.$ (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriverio\build\commands\browser\$.js:83:17)
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Object.executeCommandBe (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\expect-webdriverio\lib\utils.js:47:16)
+                    at C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\expect-webdriverio\lib\matchers\element\toBeExisting.js:10:24
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at World.&lt;anonymous> (C:\Users\ayeliyur\Desktop\wdio-v7\features\step-definitions\/steps.js:47:5)
+                    at World.executeAsync (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at World.testFrameworkFnWrapper (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625038975075' status='passed' stop='1625038975076'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

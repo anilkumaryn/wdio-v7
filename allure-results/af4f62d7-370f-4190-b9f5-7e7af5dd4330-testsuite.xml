@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625038975092' stop='1625038975323'>
+    <name>The Automation Practice site E2E flow: To add a product to cart</name>
+    <title>The Automation Practice site E2E flow: To add a product to cart</title>
+    <test-cases>
+        <test-case start='1625038975092' status='passed' stop='1625038975093'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625038975093' status='broken' stop='1625038975321'>
+            <name>Given User is logged in and on home page</name>
+            <title>Given User is logged in and on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='84b59b91-b308-4db7-ac8f-2b00e2c18cd0-attachment.png' type='image/png' size='112913'/>
+            </attachments>
+            <failure>
+                <message>invalid selector: invalid selector: Unable to locate an element with the xpath expression /a[title='View my customer account'] span because of the following error:</message>
+                <stack-trace>invalid selector: invalid selector: Unable to locate an element with the xpath expression /a[title='View my customer account'] span because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/a[title='View my customer account'] span' is not a valid XPath expression.
+                  (Session info: chrome=91.0.4472.114)
+                    at Object.getErrorFromResponseBody (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Browser.$ (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\webdriverio\build\commands\browser\$.js:83:17)
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Object.executeCommandBe (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\expect-webdriverio\lib\utils.js:47:16)
+                    at C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\expect-webdriverio\lib\matchers\element\toBeExisting.js:10:24
+                    at Browser.wrapCommandFn (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at World.&lt;anonymous> (C:\Users\ayeliyur\Desktop\wdio-v7\features\step-definitions\/steps.js:51:5)
+                    at World.executeAsync (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at World.testFrameworkFnWrapper (C:\Users\ayeliyur\Desktop\wdio-v7\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625038975321' status='undefined'>
+            <name>When User views the product and clicks on add to cart</name>
+            <title>When User views the product and clicks on add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625038975321' status='pending' stop='1625038975321'>
+            <name>User views the product and clicks on add to cart</name>
+            <title>User views the product and clicks on add to cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625038975322' status='undefined'>
+            <name>Then The user should be able to complete the purchase</name>
+            <title>Then The user should be able to complete the purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625038975322' status='pending' stop='1625038975322'>
+            <name>The user should be able to complete the purchase</name>
+            <title>The user should be able to complete the purchase</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1625038975322' status='passed' stop='1625038975323'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

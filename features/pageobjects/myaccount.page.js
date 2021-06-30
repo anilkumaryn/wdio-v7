@@ -17,7 +17,7 @@
     async enterEmailID () {
         let iRandomNumber = Math.random() * (1000 - 10 + 1) + 10
         console.log(iRandomNumber)
-        let strEmailID = 'testing'+iRandomNumber+'@gmail.com';
+        let strEmailID = 'WdioTest'+iRandomNumber+'@gmail.com';
         console.log(strEmailID)
         await (await this.EmailID).setValue(strEmailID);
     }

@@ -44,13 +44,14 @@ class PersonalInfoPage extends Page {
     get register () { return $("//button[@id='submitAccount']") }
     
     get verifyUser () { return $("//a[@class='account']/span") }
-    
-    get verifyloggedinUser () { return $("//span[text()='testing lastname']") }
+   
+    //get verifyloggedinUser () { return $("/a[title='View my customer account'] span") }
+    get verifyloggedinUser () { return $("//span[text()='MyTest Demo']") }
     
     async enterPersonalInfo () {
         await (await this.title).click();
-        await (await this.FirstName).setValue('Test');
-        await (await this.LastName).setValue('Account');
+        await (await this.FirstName).setValue('MyTest');
+        await (await this.LastName).setValue('Demo');
         await (await this.password).setValue('qwerty@12345');
         await (await this.dobDay).selectByAttribute("value", "13");
         await (await this.dobMonth).selectByAttribute("value", "12");

@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1625041720123' stop='1625041743891'>
+    <name>The Automation Practice site E2E flow: As a new user, I want to signin to the application</name>
+    <title>The Automation Practice site E2E flow: As a new user, I want to signin to the application</title>
+    <test-cases>
+        <test-case start='1625041720124' status='passed' stop='1625041720127'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625041720127' status='passed' stop='1625041729476'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1625041729477' status='passed' stop='1625041743615'>
+            <name>When I click on the sign in button</name>
+            <title>When I click on the sign in button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='be1d57b3-8332-4f0a-9e7d-0bb0a006d57a-attachment.png' type='image/png' size='833464'/>
+            </attachments>
+        </test-case>
+        <test-case start='1625041743615' status='passed' stop='1625041743889'>
+            <name>Then I should navigate to the My Accounts page</name>
+            <title>Then I should navigate to the My Accounts page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dced5340-7a25-4eae-954f-728b0adc6ab7-attachment.png' type='image/png' size='98212'/>
+            </attachments>
+        </test-case>
+        <test-case start='1625041743889' status='passed' stop='1625041743890'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
